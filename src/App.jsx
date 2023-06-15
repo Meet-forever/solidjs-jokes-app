@@ -11,13 +11,13 @@ function App() {
             <div><i class="small material-icons">flash_on</i></div>
           </div>
           <div style={{display: "flex", gap: "1rem", "align-items": "center"}}>
-            <A style={{"text-decoration": "none", outline: "none", color: "black"}} href="/">Home</A>
-            <A style={{"text-decoration": "none", outline: "none", color: "black"}} href="/about">About</A>
+            <A style={{"text-decoration": "none", outline: "none", color: "black"}} href="/solidjs-jokes-app/">Home</A>
+            <A style={{"text-decoration": "none", outline: "none", color: "black"}} href="/solidjs-jokes-app/about">About</A>
           </div>
         </header>
         <Routes>
-          <Route path={"/"} component={Home} />
-          <Route path={"/about"} component={About} />
+          <Route path={"/solidjs-jokes-app/"} component={Home} />
+          <Route path={"/solidjs-jokes-app/about"} component={About} />
         </Routes>
     </div>
   );
